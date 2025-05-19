@@ -1,0 +1,21 @@
+name: 'AutoDeps'
+description: 'Automatically installs dependencies for npm projects.'
+author: 'Shubham Yadav'
+runs:
+  using: 'node16'
+  main: 'index.js'
+
+inputs:
+  working-directory:
+    description: 'Directory to run the dependency installation (default: ".")'
+    required: false
+    default: '.'
+
+  dry-run:
+    description: 'If true, lists dependencies without installing them.'
+    required: false
+    default: false
+
+branding:
+  icon: 'package'
+  color: 'green'
