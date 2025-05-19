@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Install Dependencies
-        uses: ./.github/actions/dependency-installer
+        uses: ./.github/actions/autodeps
         with:
           working-directory: './my-project'
           dry-run: false
