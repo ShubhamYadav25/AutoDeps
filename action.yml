@@ -3,7 +3,7 @@ description: 'Automatically installs dependencies for npm projects.'
 author: 'Shubham Yadav'
 runs:
   using: 'node16'
-  main: 'dist/index.js'
+  main: 'dist/index.js '
 
 inputs:
   working-directory:
